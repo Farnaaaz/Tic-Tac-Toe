@@ -134,9 +134,17 @@ public class TicTacToe {
 
 
 
-			return " "; // not complete
+			return " "; 
 		}
 		
-	
+	public static void printGameBoard (char [][] gameBoard){ 
+        for(char[] row : gameBoard) {
+            for(char c : row) {
+                System.out.print(c);              
+            }
+            System.out.println();
+        }
+    }
+}
 } 
 	
